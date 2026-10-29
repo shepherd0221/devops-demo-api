@@ -8,7 +8,7 @@ app = FastAPI(title="DevOps Demo API")
 def root():
     return {
         "message": "Hello, DevOps!",
-        "version": "1.0.2",
+        "version": "1.0.3",
     }
 
 
