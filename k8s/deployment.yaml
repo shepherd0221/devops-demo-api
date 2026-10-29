@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/shepherd0221/devops-demo-api:sha-703d2e8
+          image: ghcr.io/shepherd0221/devops-demo-api:sha-4476f4eae293bd7b490327f8f8b1f9405d8ec74f
           imagePullPolicy: Always
           ports:
             - containerPort: 8000
