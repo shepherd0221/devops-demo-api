@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Conda / virtual environments
+.venv/
+venv/
+env/
+.conda/
+
+# Testing and linting
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# OS
+.DS_Store
+Thumbs.db

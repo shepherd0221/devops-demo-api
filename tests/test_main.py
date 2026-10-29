@@ -33,6 +33,3 @@ def test_invalid_item_id():
     assert response.status_code == 422
 
 
-def example():
-    unused_variable = 123
-    return "hello"
