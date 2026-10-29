@@ -44,6 +44,8 @@ jobs:
         run: ruff check .
 
       - name: Run pytest
+        env:
+          PYTHONPATH: ${{ github.workspace }}
         run: pytest
 
   build-push-update:
